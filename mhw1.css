@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  margin: 5px;
+}
+
+a {
+  font-weight: bold;
+  font-size: 24px;
+  background-color: purple;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+header {
+  background-image: url("photo_2022-04-02_15-33-14.jpg");
+  color: white;
+  background-color: blue;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 780px;
+  margin: auto;
+  position: relative;
+
+  }
+
+section {
+  flex-grow: 1;
+}
+
+footer {
+  font-size: 24px;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+
+
+#box{
+  
+  background-color: yellow;
+  border-radius: 50px;
+  height: 100px;
+  width:100px;
+  
+  position: absolute;
+  bottom: -50px;
+  
+}
+  
+#flex-container1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.flex-item{
+  
+  border-radius: 10px;
+  background-color: purple;
+  height:50px;
+  width: 50px;
+  
+}
+
+section{
+
+margin-top: 75px;
+text-align: center;
+}
+
+div.block1{
+
+background-color: green;
+margin: auto;
+height: 60px;
+width: 66.67%;
+
+}
+
+#flex-main{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-item: center;
+
+}
+
+div.block2{
+
+background-color: pink;
+margin: auto;
+height: 20px;
+width: 66.67%;
+
+}  
+
+#main h1 {
+
+font-size: 1.75em;
+font-weight: normal;
+color: rgba(26,26,26,.9);
+
+}
+
+div.block3{
+
+background-color: pink;
+margin: auto;
+height: 120px;
+width: 66.67%;
+
+}
+
+
